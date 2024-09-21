@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SRS Run
+Comment=
+Exec=wine C:\\\\Program\ Files\\\\DCS-SimpleRadio-Standalone\\\\SR-Server.exe &> /dev/null
+Icon=
+Path=/home/headless/.wine/drive_c/Program Files/DCS-SimpleRadio-Standalone
+Terminal=false
+StartupNotify=false

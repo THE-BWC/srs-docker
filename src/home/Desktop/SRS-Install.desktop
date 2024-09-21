@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=SRS Install
+Comment=
+Exec=/dockerstartup/srs-install.sh
+Icon=
+Path=/dockerstartup
+Terminal=true
+StartupNotify=false

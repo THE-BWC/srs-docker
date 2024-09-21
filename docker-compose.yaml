@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  srsserver:
+    image: ghcr.io/THE-BWC/srs-docker:latest
+    ports:
+      - 5901:5901
+      - 6901:6901
+      - 5002:5002/tcp
+      - 5002:5002/udp
+    volumes:
+      - ./wine:/home/headless/.wine
+    environment:
+      VNC_PW: "PLEASE_CHANGE_ME"
