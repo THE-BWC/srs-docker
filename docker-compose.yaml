@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   srsserver:
-    image: ghcr.io/THE-BWC/srs-docker:latest
+    image: ghcr.io/the-bwc/srs-docker:latest
     ports:
       - 5901:5901
       - 6901:6901
