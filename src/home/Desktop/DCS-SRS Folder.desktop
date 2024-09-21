@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DCS-SRS Folder
+Comment=
+Exec=thunar "/home/headless/.wine/drive_c/Program Files/DCS-SimpleRadio-Standalone"
+Icon=/usr/share/icons/elementary-xfce/places/128/folder.png
+Path=/home/headless/.wine/drive_c/Program Files/DCS-SimpleRadio-Standalone
+Terminal=false
+StartupNotify=false
